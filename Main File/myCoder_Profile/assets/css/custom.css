@@ -18,7 +18,7 @@
 7.Animations CSS
 8.About eduction and experinced CSS
 9.About interest CSS
-10.About AWARDS CSS
+10.About awrads CSS
 11.About clients CSS
 12.About testimonial CSS
 13.Portfolio CSS
@@ -28,7 +28,7 @@
 17.Portfolio Vimeo CSS
 18.Portfolio youtube CSS
 19.Blog News CSS
-20.contact.Me CSS
+20.Contact Us CSS
 21.Weekend Mode CSS
 22.Single News Blog Page CSS
 23.Cursor CSS
@@ -1060,16 +1060,16 @@ ul .salv-social-icon:hover a svg path{
     width: 0;
     height: 100%;
 }
-.salv-progress-inner .salv-back-color .salv-bar-in  {
+.salv-progress-inner .salv-back-color .salv-bar-in {
     height: 6px;
-    background: #31a8ef;
+    background: #0066FF;
     width: 0;
     overflow: hidden;
 }
-.salv-progress-inner.html-progress .salv-back-color .salv-bar-in {
-    background: #9900fa;
+.salv-progress-inner.html-progress .salv-back-color .salv-bar-in{
+    background: #FF0000;
 }
-.salv-progress-inner.figma-progress .salv-back-color .salv-bar-in {
+.salv-progress-inner.figma-progress .salv-back-color .salv-bar-in{
     background: #00FF0A;
 }
 .salv-prog-bar-text {
@@ -1084,16 +1084,16 @@ ul .salv-social-icon:hover a svg path{
 .salv-progress-inner.progress-top {
     padding-top: 40px;
 }
-.salv-progress-inner .salv-back-color .salv-bar-in .wordpress-bar-in {
+.salv-progress-inner .salv-back-color .salv-bar-in.wordpress-bar-in {
     width: 95%;
     animation: load-one 3s normal forwards; 
 
 }
-.salv-progress-inner .salv-back-color .salv-bar-in .html-bar-in {
+.salv-progress-inner .salv-back-color .salv-bar-in.html-bar-in {
     width: 80%;
     animation: load-two 3s normal forwards; 
 }
-.salv-progress-inner .salv-back-color .salv-bar-in .figma-bar-in {
+.salv-progress-inner .salv-back-color .salv-bar-in.figma-bar-in {
     width: 90%;
     animation: load-three 3s normal forwards; 
 }
@@ -1149,7 +1149,7 @@ ul .salv-social-icon:hover a svg path{
    border-style: solid;
    position: absolute;
    top: 0;
-   border-color: #31a8ef;
+   border-color: #0066FF;
 }
 .salva-circle-progress .progress-left .progress-bar {
    left: 100%;
@@ -1189,11 +1189,11 @@ ul .salv-social-icon:hover a svg path{
 .salv-circle-prog-title {
     padding: 20px 0 0 0;
 }
-.salva-circle-progress.franch-circle-progress .progress-bar  {
-    border-color:#7537f7;
+.salva-circle-progress.franch-circle-progress .progress-bar {
+    border-color:#FF0000;
 }
-.salva-circle-progress.arabic-circle-progress .progress-bar{
-    border-color:#da4b00;
+.salva-circle-progress.arabic-circle-progress .progress-bar {
+    border-color:#00FF0A;
 }
 .salv-circle-progress {
     padding: 40px 0 0;
@@ -1576,7 +1576,7 @@ ul .salv-social-icon:hover a svg path{
     text-align: center;
 }
 
-/*------------------------ [10.About AWARDS CSS] ------------------------*/
+/*------------------------ [10.About awrads CSS] ------------------------*/
 
 .salv-about-award, .salv-about-client, .salv-about-testimonial {
     padding: 30px 0;
@@ -2502,7 +2502,7 @@ ul .salv-social-icon:hover a svg path{
     right: 16px;
 }
 
-/*------------------------ [20.contact.Me CSS] ------------------------*/
+/*------------------------ [20.Contact Us CSS] ------------------------*/
 
 .salv-cont-get-in {
     padding: 60px 0 30px;
@@ -4177,7 +4177,7 @@ body.loaded {
     overflow: hidden;
 }
 .salva-home-image.dark-glitch {
-    background-image: url(../images/homepage/test878x1080.png);
+    background-image: url(../images/homepage/dark-glitch-image.png);
 }
 .glitch.salva-home-image.showpage {
     position: fixed;
@@ -4587,10 +4587,3 @@ to {
 .salv-dark-footer .salv-wek-text {
     color: #fff!important;
 }
-/* -------- */
-.salv-bar-in {
-    box-shadow: 0 0 8px #ff0000; /* Horizontal offset, vertical offset, blur radius, color */
-  }
-.progress-bar {
-    box-shadow: 0 0 8px #E1D1B7 #d93200 #DA4B00 #6754f8 #31A8EF; /* Adjust the hex color as needed */
-  }
